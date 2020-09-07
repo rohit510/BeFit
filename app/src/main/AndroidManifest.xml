@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.myapp.befit">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/app_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/app_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".about_developer" />
+        <activity android:name=".cardioStart" />
+        <activity android:name=".workoutStart" />
+        <activity android:name=".workoutList"
+                  android:parentActivityName=".workoutMenu"/>
+        <activity android:name=".cardioMenu"
+                  android:parentActivityName=".MainActivity"/>
+        <activity android:name=".workoutMenu"
+                  android:parentActivityName=".MainActivity"/>
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

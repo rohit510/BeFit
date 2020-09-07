@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BeFit</string>
+    <string name="workout">Workout</string>
+    <string name="cardio">Cardio</string>
+    <string name="title">beFit</string>
+    <string name="biceps">Biceps</string>
+    <string name="triceps">Triceps</string>
+    <string name="back">Back</string>
+    <string name="chest">Chest</string>
+    <string name="legs">Legs</string>
+    <string name="shoulder">Shoulder</string>
+    <string name="cardio1">1.Jumping Jack</string>
+    <string name="cardio2">2.Running</string>
+    <string name="cardio3">3.Burpees</string>
+    <string name="cardio4">4.Crunches</string>
+    <string name="cardio5">5.Mountain Climber</string>
+    <string name="cardio6">6.Plank</string>
+    <string name="cardioExercises">Excercises</string>
+    <string name="startCardio">Start</string>
+    <string name="breakText">BREAK!</string>
+    <string name="endText">END</string>
+
+    <string name="developer_name">ROHIT CHOUDHARY</string>
+    <string name="developer_address">Bangalore,India</string>
+    <string name="about_developer">I\'m a student pursuing Information Science and Engineering from SJB Institute Of Technology,Bangalore,Karnataka,India</string>
+</resources>
