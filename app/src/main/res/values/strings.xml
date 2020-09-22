@@ -19,8 +19,9 @@
     <string name="startCardio">Start</string>
     <string name="breakText">BREAK!</string>
     <string name="endText">END</string>
+    <string name="chooseExercise">Choose Your Exercises</string>
 
     <string name="developer_name">ROHIT CHOUDHARY</string>
     <string name="developer_address">Bangalore,India</string>
-    <string name="about_developer">I\'m a student pursuing Information Science and Engineering from SJB Institute Of Technology,Bangalore,Karnataka,India</string>
+    <string name="about_developer">I\'m a student pursuing Information Science and Engineering from SJB Institute Of Technology,Bangalore</string>
 </resources>

@@ -9,15 +9,19 @@
         android:roundIcon="@mipmap/app_icon_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".selectWorkouts"></activity>
         <activity android:name=".about_developer" />
         <activity android:name=".cardioStart" />
         <activity android:name=".workoutStart" />
-        <activity android:name=".workoutList"
-                  android:parentActivityName=".workoutMenu"/>
-        <activity android:name=".cardioMenu"
-                  android:parentActivityName=".MainActivity"/>
-        <activity android:name=".workoutMenu"
-                  android:parentActivityName=".MainActivity"/>
+        <activity
+            android:name=".workoutList"
+            android:parentActivityName=".workoutMenu" />
+        <activity
+            android:name=".cardioMenu"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".workoutMenu"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

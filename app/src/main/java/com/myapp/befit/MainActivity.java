@@ -29,6 +29,8 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar myToolbar = (Toolbar) findViewById(R.id.my_toolbar);
         setSupportActionBar(myToolbar);
+        //getSupportActionBar().setLogo(R.mipmap.app_icon);
+
 
         workout = (ImageButton) findViewById(R.id.workoutButton);
         cardio = (ImageButton) findViewById(R.id.cardioButton);
